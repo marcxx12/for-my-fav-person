@@ -145,3 +145,22 @@ h1 {
   transform: rotate(90deg);
   transition-delay: 0.4s;
 }
+@media (max-width: 768px) {
+  .letter {
+    transform: scale(1);
+    bottom: 50px;
+    width: 80%;
+  }
+
+  .center-message p {
+    font-size: 16px;
+  }
+
+  .heart {
+    top: 85%;
+  }
+
+  .envelope-wrapper {
+    transform: scale(0.9);
+  }
+}
