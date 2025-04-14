@@ -44,7 +44,7 @@ h1 {
   --heart-color: rgb(250, 115, 169);
 }
 .container {
-  height: 130vh;
+  height: 100vh;
   display: grid;
   place-items: center;
 }
@@ -55,7 +55,7 @@ h1 {
 .container > .envelope-wrapper > .envelope {
   position: relative;
   width: 300px;
-  height: 230px;
+  height: 200px;
 }
 .container > .envelope-wrapper > .envelope::before {
   content: '';
