@@ -145,3 +145,50 @@ h1 {
   transform: rotate(90deg);
   transition-delay: 0.4s;
 }
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 16px;
+    top: 5%;
+  }
+
+  .move-image {
+    width: 60px;
+    height: 60px;
+    top: 20%;
+    animation: none; /* Optional: matikan animasi di layar kecil */
+  }
+
+  .container {
+    height: auto;
+    padding: 20px;
+  }
+
+  .container > .envelope-wrapper > .envelope {
+    width: 200px;
+    height: 150px;
+  }
+
+  .letter {
+    width: 70%;
+    height: 70%;
+    right: 15%;
+  }
+
+  .center-message {
+    top: 70%;
+    font-size: 12px;
+  }
+
+  .heart {
+    top: 85%;
+    width: 12px;
+    height: 12px;
+  }
+
+  .heart::before,
+  .heart::after {
+    width: 12px;
+    height: 12px;
+  }
+}
