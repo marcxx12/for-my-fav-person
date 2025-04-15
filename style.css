@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: medium;
   text-align: center;
   position: absolute;
@@ -21,7 +21,7 @@ h1 {
   background-image: url('23-1.png');
   background-size: cover;
   position: absolute;
-  top: 25%;
+  top: 28%;
   transform: translateY(-50%);
   animation: moveFromRightToCenter 3s forwards;
 }
@@ -121,7 +121,7 @@ h1 {
 .heart {
   position: absolute;
   bottom: 90px;
-  left: 50%;
+  left: 51%;
   width: 15px;
   height: 15px;
   background: var(--heart-color);
@@ -166,3 +166,4 @@ h1 {
   transform: rotate(90deg);
   transition-delay: 0.4s;
 }
+
